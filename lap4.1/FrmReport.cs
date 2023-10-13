@@ -1,4 +1,4 @@
-﻿using lap4._1.Model;
+j﻿using lap4._1.Model;
 using lap4._1.report.StudentReport;
 using Microsoft.Reporting.WinForms;
 using System;
@@ -32,7 +32,7 @@ namespace lap4._1
             AverageScore =c.AverageScore,
             
             }).ToList();
-
+/// hao da toi day
             this.reportViewer1.LocalReport.ReportPath = "rptStudentReport.rdlc";
             var reportDataSource = new ReportDataSource("StudentReportDataSet", listStudentReportDto);
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource);
