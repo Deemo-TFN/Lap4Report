@@ -15,6 +15,7 @@ namespace lap4._1
 {
     public partial class FrmReport : Form
     {
+        //toantran đa o day 
         public FrmReport()
         {
             InitializeComponent();
